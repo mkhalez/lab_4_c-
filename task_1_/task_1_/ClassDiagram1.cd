@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="task_1_.Enterprise">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <Members>
+      <Property Name="EmployeeCount" Hidden="true" />
+      <Property Name="IncomeTaxRate" Hidden="true" />
+      <Property Name="Name" Hidden="true" />
+      <Property Name="PaymentPerHour" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQIBABAAEAAEAAACAEAAEE=</HashCode>
+      <FileName>Enterprise.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="norm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="task_1_.ProductionNorm">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProductionNorm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

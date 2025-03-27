@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\lab_of_c#\\lab_3\\task_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF67DDDE-3379-41B5-8166-1232EF43B75A}|task_1\\task_1.csproj|c:\\lab_of_c#\\lab_3\\task_1\\task_1\\enterprise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF67DDDE-3379-41B5-8166-1232EF43B75A}|task_1\\task_1.csproj|solutionrelative:task_1\\enterprise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF67DDDE-3379-41B5-8166-1232EF43B75A}|task_1\\task_1.csproj|c:\\lab_of_c#\\lab_3\\task_1\\task_1\\productionnorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF67DDDE-3379-41B5-8166-1232EF43B75A}|task_1\\task_1.csproj|solutionrelative:task_1\\productionnorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF67DDDE-3379-41B5-8166-1232EF43B75A}|task_1\\task_1.csproj|c:\\lab_of_c#\\lab_3\\task_1\\task_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF67DDDE-3379-41B5-8166-1232EF43B75A}|task_1\\task_1.csproj|solutionrelative:task_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF67DDDE-3379-41B5-8166-1232EF43B75A}|task_1\\task_1.csproj|c:\\lab_of_c#\\lab_3\\task_1\\task_1\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{CF67DDDE-3379-41B5-8166-1232EF43B75A}|task_1\\task_1.csproj|solutionrelative:task_1\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enterprise.cs",
+              "DocumentMoniker": "C:\\lab_of_c#\\lab_3\\task_1\\task_1\\Enterprise.cs",
+              "RelativeDocumentMoniker": "task_1\\Enterprise.cs",
+              "ToolTip": "C:\\lab_of_c#\\lab_3\\task_1\\task_1\\Enterprise.cs",
+              "RelativeToolTip": "task_1\\Enterprise.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:21:24.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductionNorm.cs",
+              "DocumentMoniker": "C:\\lab_of_c#\\lab_3\\task_1\\task_1\\ProductionNorm.cs",
+              "RelativeDocumentMoniker": "task_1\\ProductionNorm.cs",
+              "ToolTip": "C:\\lab_of_c#\\lab_3\\task_1\\task_1\\ProductionNorm.cs",
+              "RelativeToolTip": "task_1\\ProductionNorm.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:05:45.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\lab_of_c#\\lab_3\\task_1\\task_1\\Program.cs",
+              "RelativeDocumentMoniker": "task_1\\Program.cs",
+              "ToolTip": "C:\\lab_of_c#\\lab_3\\task_1\\task_1\\Program.cs",
+              "RelativeToolTip": "task_1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:56:25.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\lab_of_c#\\lab_3\\task_1\\task_1\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "task_1\\ClassDiagram1.cd",
+              "ToolTip": "C:\\lab_of_c#\\lab_3\\task_1\\task_1\\ClassDiagram1.cd",
+              "RelativeToolTip": "task_1\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-03-27T20:02:45.541Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

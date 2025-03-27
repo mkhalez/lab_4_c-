@@ -1,0 +1,14 @@
+C:\lab_of_c#\lab_4\task_1_\task_1_\bin\Debug\net8.0\task_1_.exe
+C:\lab_of_c#\lab_4\task_1_\task_1_\bin\Debug\net8.0\task_1_.deps.json
+C:\lab_of_c#\lab_4\task_1_\task_1_\bin\Debug\net8.0\task_1_.runtimeconfig.json
+C:\lab_of_c#\lab_4\task_1_\task_1_\bin\Debug\net8.0\task_1_.dll
+C:\lab_of_c#\lab_4\task_1_\task_1_\bin\Debug\net8.0\task_1_.pdb
+C:\lab_of_c#\lab_4\task_1_\task_1_\obj\Debug\net8.0\task_1_.GeneratedMSBuildEditorConfig.editorconfig
+C:\lab_of_c#\lab_4\task_1_\task_1_\obj\Debug\net8.0\task_1_.AssemblyInfoInputs.cache
+C:\lab_of_c#\lab_4\task_1_\task_1_\obj\Debug\net8.0\task_1_.AssemblyInfo.cs
+C:\lab_of_c#\lab_4\task_1_\task_1_\obj\Debug\net8.0\task_1_.csproj.CoreCompileInputs.cache
+C:\lab_of_c#\lab_4\task_1_\task_1_\obj\Debug\net8.0\task_1_.dll
+C:\lab_of_c#\lab_4\task_1_\task_1_\obj\Debug\net8.0\refint\task_1_.dll
+C:\lab_of_c#\lab_4\task_1_\task_1_\obj\Debug\net8.0\task_1_.pdb
+C:\lab_of_c#\lab_4\task_1_\task_1_\obj\Debug\net8.0\task_1_.genruntimeconfig.cache
+C:\lab_of_c#\lab_4\task_1_\task_1_\obj\Debug\net8.0\ref\task_1_.dll

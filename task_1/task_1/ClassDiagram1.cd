@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="task_1.Enterprise">
+    <Position X="2.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAQIAAAAAEAAAAAACAEAAEE=</HashCode>
+      <FileName>Enterprise.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="norm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="task_1.ProductionNorm">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgBAAAABAAAAAAAAAAAAABABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProductionNorm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
