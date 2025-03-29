@@ -1,4 +1,6 @@
-﻿namespace task_1_
+﻿using System.Threading.Channels;
+
+namespace task_1_
 {
 	internal class Program
 	{
@@ -16,19 +18,19 @@
 
 			while (true)
 			{
+				enterprise = new Enterprise();
+
 				Console.WriteLine("Введите название предприятия: ");
-				string name = InputString();
+				BestCheck(value => enterprise.NameCheck = (string)value, "пустая строка без символов, введите значение", -1);
 
 				Console.WriteLine("Введите количество работников: ");
-				int employeeCount = InputInt();
+				BestCheck(value => enterprise.EmployeeCountCheck = (int)value, "число работников это натуральное число", 1);
 
 				Console.WriteLine("Введите оплату за час работника: ");
-				double paymentPerHour = InputDoublePaymen();
+				BestCheck(value => enterprise.PaymentPerHourCheck = (double)value, "оплата должна быть неотрицательным числом", 0);
 
 				Console.WriteLine("Введите подоходный налог с каждого работника в %: ");
-				double incomeTax = InputDoubleTax() / 100;
-
-				enterprise = new Enterprise(name, employeeCount, paymentPerHour, incomeTax);
+				BestCheck(value => enterprise.IncomeTaxRateCheck = (double)value, "процент должен быть в пределах от 0 до 100", 0);
 
 				Console.WriteLine($"Сейчас норма выработки часов в месяц: {enterprise.InfoMonthlyHoursNorm()}");
 				Console.WriteLine("Изменить норму? (введиет число: 1 - да, 0 - нет): ");
@@ -37,12 +39,11 @@
 				if (decision)
 				{
 					Console.WriteLine("Введите на сколько вы хотите изменить норму: ");
-					int changes = InputDecisionChanges();
-					enterprise.ChangeNorm(changes);
+					InputDecisionChanges(enterprise, "введеное значение должно быть целым, а результат не меньше 0");
 				}
 
 				Console.WriteLine("--------------------------------------");
-				enterprise.GetInfo();
+				Console.WriteLine(enterprise.GetInfo());
 				Console.WriteLine();
 
 				Console.WriteLine("Do you want to continue or stop[Y/n]");
@@ -53,7 +54,58 @@
 
 		}
 
-		static string InputString()
+		static void BestCheck(Action<object> setter, string condition, int type)
+		{
+			while(true)
+			{
+				string input = Console.ReadLine() ?? string.Empty;
+				try
+				{
+					object value;
+					if(type == 1)
+					{
+						value = int.Parse(input);
+					}
+					else if(type == 0)
+					{
+						value = double.Parse(input);
+					}
+					else
+					{
+						value = input;
+					}
+
+					setter(value);
+					return;
+				}
+				catch (Exception)
+				{
+					Console.WriteLine(condition);
+				}
+			}
+		}
+
+		static void InputDecisionChanges(Enterprise enterprise, string condition)
+		{
+
+			while(true)
+			{
+				string input = Console.ReadLine() ?? string.Empty;
+				try
+				{
+					int value;
+					value = int.Parse(input);
+					enterprise.ChangeNorm(value);
+					return;
+				}
+				catch (Exception)
+				{
+					Console.WriteLine(condition);
+				}
+			}
+		}
+
+		/*static string InputString()
 		{
 			while (true)
 			{
@@ -70,9 +122,9 @@
 					return value;
 				}
 			}
-		}
+		}*/
 
-		static int InputInt()
+		/*static int InputInt()
 		{
 			string value;
 			int getValueInInt;
@@ -93,9 +145,9 @@
 				}
 			}
 			return 0;
-		}
+		}*/
 
-		static double InputDoublePaymen()
+		/*static double InputDoublePaymen()
 		{
 			string value;
 			double getValueInDouble;
@@ -116,9 +168,9 @@
 				}
 			}
 			return 0.0;
-		}
+		}*/
 
-		static double InputDoubleTax()
+		/*static double InputDoubleTax()
 		{
 			string value;
 			double getValueInDouble;
@@ -140,7 +192,7 @@
 			}
 			return 0.0;
 		}
-
+		*/
 		static bool InputDecisionYesNo()
 		{
 			string value;
@@ -165,28 +217,7 @@
 			return false;
 		}
 
-		static int InputDecisionChanges()
-		{
-			string value;
-			int getValueInInt;
-			bool valid = false;
-
-			while (!valid)
-			{
-				value = Console.ReadLine() ?? string.Empty;
-				valid = int.TryParse(value, out getValueInInt);
-				if (valid == false)
-				{
-					Console.WriteLine("введите число");
-					valid = false;
-				}
-				else
-				{
-					return getValueInInt;
-				}
-			}
-			return 0;
-		}
+		
 
 		static bool CorrectFinishAnswer(string answer)
 		{

@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -48,22 +48,9 @@
               "RelativeDocumentMoniker": "task_1_\\Enterprise.cs",
               "ToolTip": "C:\\lab_of_c#\\lab_4\\task_1_\\task_1_\\Enterprise.cs",
               "RelativeToolTip": "task_1_\\Enterprise.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAADwvzsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T21:28:16.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductionNorm.cs",
-              "DocumentMoniker": "C:\\lab_of_c#\\lab_4\\task_1_\\task_1_\\ProductionNorm.cs",
-              "RelativeDocumentMoniker": "task_1_\\ProductionNorm.cs",
-              "ToolTip": "C:\\lab_of_c#\\lab_4\\task_1_\\task_1_\\ProductionNorm.cs",
-              "RelativeToolTip": "task_1_\\ProductionNorm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T21:27:47.271Z",
               "EditorCaption": ""
             },
             {
@@ -74,9 +61,22 @@
               "RelativeDocumentMoniker": "task_1_\\Program.cs",
               "ToolTip": "C:\\lab_of_c#\\lab_4\\task_1_\\task_1_\\Program.cs",
               "RelativeToolTip": "task_1_\\Program.cs",
-              "ViewState": "AgIAALgAAAAAAAAAAAAgwMIAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T21:27:37.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductionNorm.cs",
+              "DocumentMoniker": "C:\\lab_of_c#\\lab_4\\task_1_\\task_1_\\ProductionNorm.cs",
+              "RelativeDocumentMoniker": "task_1_\\ProductionNorm.cs",
+              "ToolTip": "C:\\lab_of_c#\\lab_4\\task_1_\\task_1_\\ProductionNorm.cs",
+              "RelativeToolTip": "task_1_\\ProductionNorm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T21:27:47.271Z",
               "EditorCaption": ""
             }
           ]
